@@ -25,7 +25,7 @@ import torch.multiprocessing
 torch.multiprocessing.set_sharing_strategy('file_system')
 
 
-__all__ = ['LidarHD', 'MiniLidarHD']
+__all__ = ['LidarHD']
 
 
 ########################################################################

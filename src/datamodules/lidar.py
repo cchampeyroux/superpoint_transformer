@@ -7,7 +7,7 @@ Created on Wed Dec  6 15:43:26 2023
 
 import logging
 from src.datamodules.base import BaseDataModule
-from src.datasets.graphdataset import MyOwnDataset
+from src.datasets import LidarHD
 from torch.utils.data import DataLoader
 
 import pytorch_lightning as pl
