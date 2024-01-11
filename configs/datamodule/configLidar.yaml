@@ -3,7 +3,7 @@
 defaults:
   - default.yaml
 
-_target_: src.datamodules.lidar.LidarDataModule
+_target_: src.datamodules.lidarhd.LidarHDDataModule
 
 # These parameters are not actually used by the DataModule, but are used
 # here to facilitate model parameterization with config interpolation
